@@ -5,19 +5,38 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={'https://logodix.com/logo/718281.png'}></img>
       </header>
+
+      <nav>
+        <div>
+          Профайл
+        </div>
+        <div>
+          Профайл
+        </div>
+        <div>
+          Профайл
+        </div>
+        <div>
+          Профайл
+        </div>
+      </nav>
+
+      <div>
+        New Post
+          <div>
+            <textarea></textarea>
+            <button>Добавить пост</button>
+          </div>
+          My Post
+            <div>
+              Post 1
+            </div>
+            <div>
+              Post 2
+            </div>
+      </div>
     </div>
   );
 }
